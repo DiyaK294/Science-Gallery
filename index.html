@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Science Day - Scientists Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>World Science Day - Scientists Gallery</h1>
+        <p>Celebrating great minds who have changed the world with their contributions to science.</p>
+        <input type="text" id="searchBar" placeholder="Search scientists..." onkeyup="filterScientists()" style="margin-top: 20px; padding: 10px; width: 50%; font-size: 1em;">
+    </header>
+    <main>
+        <section class="gallery" id="scientistGallery">
+           <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Albert_Einstein"> <img src="https://th.bing.com/th/id/R.cbfb865bc494eee1a389b765ea40c582?rik=KV6BSHSosMHN4Q&riu=http%3a%2f%2fstatic.guim.co.uk%2fsys-images%2fGuardian%2fPix%2fpictures%2f2015%2f6%2f9%2f1433860888503%2fAlbert-Einstein.--009.jpg&ehk=7d%2fnrW3%2fZ50B9xWJpoEDt5jxqauzDD5HJd0AU5wpMCc%3d&risl=&pid=ImgRaw&r=0">
+                </a>
+                <h2>Albert Einstein</h2>
+                <p>Theoretical physicist known for the theory of relativity.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Marie_Curie"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/440px-Marie_Curie_c._1920s.jpg">
+                </a>
+                <h2>Marie Curie</h2>
+                <p>Pioneered research on radioactivity and first female Nobel laureate.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Isaac_Newton"> <img src="https://www.thefamouspeople.com/profiles/images/isaac-newton-23.jpg">
+                </a>
+                <h2>Isaac Newton</h2>
+                <p>Mathematician and physicist who formulated the laws of motion and universal gravitation.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Rosalind_Franklin"> <img src="https://www.esciupfnews.com/wp-content/uploads/2021/06/Rosalind-Franklin.jpg">
+                </a>
+                <h2>Rosalind Franklin</h2>
+                <p>Contributed to the discovery of the DNA double helix structure.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Nikola_Tesla"> <img src="https://preview.redd.it/5evbmjmfkxz31.jpg?auto=webp&s=71ade564811c77974296bee1b5c6d17776c18a5f">
+                </a>
+                <h2>Nikola Tesla</h2>
+                <p>Inventor and electrical engineer known for alternating current (AC) systems.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Jane_Goodall"> <img src="https://th.bing.com/th/id/OIP.9Fh2pGcd0eVHVAefqZgySAHaFj?rs=1&pid=ImgDetMain">
+                </a>
+                <h2>Jane Goodall</h2>
+                <p>Primatologist and anthropologist famous for her studies on chimpanzees.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Stephen_Hawking"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg">
+                </a>
+                <h2>Stephen Hawking</h2>
+                <p>Renowned theoretical physicist known for his work on black holes and cosmology.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Ada_Lovelace"> <img src="https://i.pinimg.com/originals/53/2e/e8/532ee8b5523cbeb995c1d68f89d510ae.png">
+                </a>
+                <h2>Ada Lovelace</h2>
+                <p>First computer programmer and visionary of computing machines.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Galileo_Galilei"> <img src="https://assets.editorial.aetnd.com/uploads/2010/07/galileo-galilei-gettyimages-51246872.jpg">
+                </a>
+                <h2>Galileo Galilei</h2>
+                <p>Father of observational astronomy, known for his work on heliocentrism.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Rachel_Carson"> <img src="https://www.thefamouspeople.com/profiles/images/rachel-carson-1.png">
+                </a>
+                <h2>Rachel Carson</h2>
+                <p>Marine biologist and conservationist who advanced the global environmental movement.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Gregor_Mendel"> <img src="https://usercontent1.hubstatic.com/8701908.png">
+                </a>
+                <h2>Gregor Mendel</h2>
+                <p>Father of genetics, known for his pea plant experiments.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Katherine_Johnson"> <img src="https://img.apmcdn.org/2e2ceb4fdbd8ac017b85b242fe098cb3b466cf5a/square/44315c-20161208-katherine-johnson.jpg">
+                </a>
+                <h2>Katherine Johnson</h2>
+                <p>Mathematician whose calculations were critical for NASA's space missions.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Carl_Sagan"> <img src="https://i.pinimg.com/originals/02/8e/6e/028e6e99ab2b8216fbd1ff9edafb6422.jpg">
+                </a>
+                <h2>Carl Sagan</h2>
+                <p>Astronomer and science communicator, famous for his work on the cosmos.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Richard_Feynman"> <img src="https://www.thefamousbirthdays.com/photo/en/4/42/wk_50820_33553_large.jpg">
+                </a>
+                <h2>Richard Feynman</h2>
+                <p>Physicist known for quantum mechanics and charismatic teaching style.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Barbara_McClintock"> <img src="https://cdn.britannica.com/62/194762-050-59387496/Barbara-McClintock-1947.jpg">
+                </a>
+                <h2>Barbara McClintock</h2>
+                <p>Geneticist known for discovering transposable elements in DNA.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Alexander_Fleming"><img src="https://www.thoughtco.com/thmb/k9IZSJiiKubtKSHa8Y8OWNkA0ak=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fleming-5bb2394b46e0fb002604dbe0.jpg"></a>
+                <h2>Alexander Fleming</h2>
+                <p>Discovered penicillin, the first widely effective antibiotic.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Niels_Bohr"><img src="https://th.bing.com/th/id/R.0dac5aac2e82c7fb9e048786507bb812?rik=bo98H1kCjpFyTw&riu=http%3a%2f%2f3d-car-shows.com%2fwp-content%2fuploads%2f2012%2f10%2fNiels_Bohr.jpg&ehk=FNT2ZupphsdYSGtyjvkHk8Ewvm4zp5fZIiFjSGQgLH8%3d&risl=&pid=ImgRaw&r=0"></a>
+                <h2>Niels Bohr</h2>
+                <p>Contributed to the understanding of atomic structure and quantum theory.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Dorothy_Hodgkin"><img src="https://th.bing.com/th/id/R.44dc4eea80ed967a08537d390033f168?rik=lCNCCDZrcnkQsw&pid=ImgRaw&r=0"></a>
+                <h2>Dorothy Hodgkin</h2>
+                <p>Advanced the field of X-ray crystallography to study biomolecules.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Max_Planck"><img src="https://th.bing.com/th/id/OIP.4LIwCFGB0Z7dSR7KHABdpgHaHa?rs=1&pid=ImgDetMain"></a>
+                <h2>Max Planck</h2>
+                <p>Father of quantum theory, revolutionizing physics.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Chien-Shiung_Wu"><img src="https://th.bing.com/th/id/R.d41392f8f11b5e2b7d5c74c7e9cd7caf?rik=3ZFEB0tMZbo1Ww&pid=ImgRaw&r=0"></a>
+                <h2>Chien-Shiung Wu</h2>
+                <p>Experimental physicist known as the 'First Lady of Physics.'</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Alfred_Nobel"><img src="https://th.bing.com/th/id/R.4011a394440bc7492a662f9d31669522?rik=UQCNNxISDAaf2A&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fd%2fd2%2fAlfredNobel2.jpg&ehk=KwBINrXioyWTr6DVApfENpghbj5qYgG8XHI7Jvrf%2fdU%3d&risl=&pid=ImgRaw&r=0"></a>
+                <h2>Alfred Nobel</h2>
+                <p>Inventor of dynamite and founder of the Nobel Prizes.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Florence_Nightingale"><img src="https://th.bing.com/th/id/R.89d6a6e8c698d3dcfb24ad5d5757eee7?rik=DvpQoHnWo2%2btQw&pid=ImgRaw&r=0"></a>
+                <h2>Florence Nightingale</h2>
+                <p>Pioneering statistician and founder of modern nursing.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell"><img src="https://www.researchgate.net/profile/Vladimir-Soloviev-5/publication/360164096/figure/fig1/AS:1148587870289922@1650856096509/James-Clerk-Maxwell-1831-1879.jpg"></a>
+                <h2>James Clerk Maxwell</h2>
+                <p>Formulated the classical theory of electromagnetic radiation.</p>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Charles_Darwin"><img src="https://th.bing.com/th/id/R.a79e7d7cd75d261e5492a7c19b12fcd2?rik=zbteVi1gdF%2bB0w&pid=ImgRaw&r=0"></a>
+                <h2>Charles Darwin</h2>
+                <p>Developed the theory of evolution by natural selection.</p>
+            </div>
+          
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 World Science Day Celebration</p>
+    </footer>
+
+    <script>
+        function filterScientists() {
+            const searchInput = document.getElementById('searchBar').value.toLowerCase();
+            const cards = document.querySelectorAll('.gallery .card');
+
+            cards.forEach(card => {
+                const scientistName = card.querySelector('h2').textContent.toLowerCase();
+                const description = card.querySelector('p').textContent.toLowerCase();
+
+                if (scientistName.includes(searchInput) || description.includes(searchInput)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
